@@ -1,3 +1,3 @@
 function login () {
-    return 'Pagina de login;'
+    return 'Pagina de login'
 } 

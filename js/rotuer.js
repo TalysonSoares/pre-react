@@ -5,6 +5,8 @@ let rotas = {
     'd': config,
 };
 
+
+
 function alterarConteudo(pagina) {
-    document.getElementById('conteudo').innerHTML = pagina;
+    document.getElementById('conteudo').innerHTML = rotas[pagina]();
 }

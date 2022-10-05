@@ -1,3 +1,3 @@
 function config() {
-    return 'pagina de configuração';
+    return 'Pagina de configuração'
 }
