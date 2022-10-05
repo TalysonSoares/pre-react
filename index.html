@@ -8,23 +8,17 @@
     </head>
     <body>
         <nav>
-            <button onclick="alterarConteudo('a')">Inicio</button>
-            <button onclick="alterarConteudo('b')">Login</button>
-            <button onclick="alterarConteudo('c')">Cadastro</button>
-            <button onclick="alterarConteudo('d')">Configurações</button>
-            <button onclick="alterarConteudo('e')">Listar</button>
+            <button data-action="menu" data-page="a">Inicio</button>
+            <button data-action="menu" data-page="b">Login</button>
+            <button data-action="menu" data-page="c">Cadastro</button>
+            <button data-action="menu" data-page="d">Configurações</button>
+            <button data-action="menu" data-page="e">Listar</button>
         </nav>
         
         <hr>
 
         <main id="conteudo"></main>
 
-        <script src="js/cadastro.js"></script>
-        <script src="js/config.js"></script>
-        <script src="js/login.js"></script>
-        <script src="js/inicio.js"></script>
-        <script src="js/listar.js"></script>
-
-        <script src="js/rotuer.js"></script>
+        <script src="js/rotuer.js" type="module"></script>
     </body>
 </html>

@@ -14,6 +14,14 @@ let rotas = {
 
 
 
-function alterarConteudo(pagina) {
+document.querySelectorAll('[data-action="menu"]').forEach((botao) => {
+    botao.addEventListener('click', () => {
+        let pagina = botao.getAttribute('data-page');
+
+        document.getElementById('conteudo').innerHTML = rotas[pagina]();
+    })
+})
+
+/*function alterarConteudo(pagina) {
     document.getElementById('conteudo').innerHTML = rotas[pagina]();
-}
+}*/
