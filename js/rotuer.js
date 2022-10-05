@@ -3,6 +3,7 @@ let rotas = {
     'b': login,
     'c': cadastro,
     'd': config,
+    'e': listar,
 };
 
 
