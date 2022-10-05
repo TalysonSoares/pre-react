@@ -1,3 +1,3 @@
-function listar() {
-    return 'listar'
+export default function listar() {
+    return 'Lista'
 }
